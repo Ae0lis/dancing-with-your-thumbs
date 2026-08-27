@@ -1,6 +1,6 @@
-# Dancing with Your Thumbs
+# Dancing With Your Thumbs
 
-Dancing with Your Thumbs is a four-lane rhythm game implemented in SystemVerilog on a DE1-SoC FPGA. It was completed as a solo final project for the University of Washington's EE 271 course over two weeks in Spring 2026.
+Dancing With Your Thumbs is a four-lane rhythm game implemented in SystemVerilog on a DE1-SoC FPGA. It was completed as a solo final project for the University of Washington's EE 271 course over two weeks in Spring 2026.
 
 ## Features
 
@@ -33,15 +33,15 @@ The saved Quartus build successfully synthesized and fit on the target FPGA usin
 
 ## Repository layout
 
-- `Lab 8 Code A (Demo)/` - SystemVerilog source, testbenches, and Quartus project files
-- `EE 271 Lab 8 User Manual.pdf` - controls, gameplay rules, and hierarchical block diagrams
-- `EE 271 Lab 8 Market & Usability Analysis.pdf` - design iterations and usability decisions
+- `Dancing With Your Thumbs/` - SystemVerilog source, testbenches, and Quartus project files
+- `Dancing With Your Thumbs User Manual.pdf` - controls, gameplay rules, and hierarchical block diagrams
+- `Dancing With Your Thumbs Market & Usability Analysis.pdf` - design iterations and usability decisions
 
 Generated Quartus and ModelSim files are excluded from version control.
 
 ## Building and running
 
-1. Open `Lab 8 Code A (Demo)/DE1_SoC.qpf` in Quartus Prime Lite 17.0.
+1. Open `Dancing With Your Thumbs/DE1_SoC.qpf` in Quartus Prime Lite 17.0.
 2. Compile the `DE1_SoC` revision for the Cyclone V target.
 3. Connect the 16x16 LED matrix to GPIO 1 and program the generated bitstream onto the DE1-SoC.
 4. Toggle `SW[9]` to reset the system, select a difficulty with `SW[8:7]`, and play using `KEY[3:0]`.
