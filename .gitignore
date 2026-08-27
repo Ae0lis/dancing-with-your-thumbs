@@ -1,0 +1,42 @@
+# Quartus generated databases and build products
+**/db/
+**/incremental_db/
+**/output_files/
+**/simulation/
+
+# Quartus temporary and generated files
+*.qws
+*.qdf
+*.srf
+*.smsg
+*.summary
+*.rpt
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+*.rbf
+*.sld
+*.svo
+*.sft
+*.xrf
+c5_pin_model_dump.txt
+
+# ModelSim/Questa generated files
+**/work/
+transcript
+*.wlf
+wlft*
+*.vstf
+*.ucdb
+*.vcd
+
+# Editor and operating-system clutter
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
