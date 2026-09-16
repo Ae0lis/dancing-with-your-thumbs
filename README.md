@@ -2,6 +2,8 @@
 
 Dancing with your Thumbs is a four-lane rhythm game implemented in SystemVerilog on a DE1-SoC FPGA. It was completed as a solo final project for the University of Washington's EE 271 course over two weeks in Spring 2026.
 
+Writeup: https://ae0lis.github.io/projects/dwyt/.
+
 ![Image of the game](Media/DWYT_hero.jpg)
 
 ## Features
